@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react';
+import SplashPage from './components/SplashPage';
 import Hero from './components/Hero'
 import Xflag from './components/Xflag'
 import News from './components/News'
@@ -8,7 +9,7 @@ import Quiz from './components/Quiz'
 import Proof from './components/Proof'
 import Header from './components/Header'
 
-function App() {
+const MainSite = () => {
   return (
     <div className='bg-black h-full w-full '>
       <Header />
@@ -21,7 +22,25 @@ function App() {
       <Proof />
       <Proof />
     </div>
-  )
-}
+  );
+};
 
-export default App
+const App = () => {
+  const [showIntro, setShowIntro] = useState(true);
+
+  const handleContinueClick = () => {
+    setShowIntro(false);
+  };
+
+  return (
+    <div>
+      {showIntro ? (
+        <SplashPage onContinueClick={handleContinueClick} />
+      ) : (
+        <MainSite />
+      )}
+    </div>
+  );
+};
+
+export default App;
