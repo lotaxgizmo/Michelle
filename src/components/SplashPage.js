@@ -25,7 +25,7 @@ const SplashPage = ({ onContinueClick }) => {
             <audio ref={audioRef} src={audio} autoPlay={false} />
 
             <div
-                className="bg-[#ebf752] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
+                className="bg-[#ebf752]  text-black font-bold py-2 px-4 rounded cursor-pointer"
                 onClick={handleContinueClick}
             >
                 Click to Continue
