@@ -5,7 +5,7 @@ import jerknow from "../assets/jerknow.png";
 
 function Desktop() {
   return (
-    <div className="hidden lg:flex justify-center items-center py-2 text-[#EBF752]">
+    <div className="hidden lg:flex justify-center items-center py-2 my-5 text-[#EBF752]">
       <div className="flex justify-around items-center self-center w-full h-14 px-3">
         <a href="#">
           <img src={$MICHEAL} alt="" className="w-fit ml-3" />
