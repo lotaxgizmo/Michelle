@@ -17,7 +17,7 @@ function Desktop() {
           <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-whitel hover:text-xl">
             About
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-whitel hover:text-xl">
+          <a href="#tokenomics" target="_blank" rel="noopener noreferrer" className="hover:text-whitel hover:text-xl">
             dICKNomics
           </a>
           <a href="#" className="hover:text-whitel hover:text-xl">

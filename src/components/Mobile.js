@@ -32,7 +32,7 @@ function Mobile() {
         <div className={`${isMax ? maxHeight : minHeight} w-60  rounded-xl flex flex-col justify-around  self-center ws-96 h-56 ${isMax ? showmenu : hidemenu}`}>
           <a href="#" target="_blank" rel="noopener noreferrer" className='hover:text-whitel text-left text-4xl hover:text-xl'>Home</a>
           <a href="#" target="_blank" rel="noopener noreferrer" className='hover:text-whitel text-left text-4xl hover:text-xl'>About</a>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='hover:text-whitel text-left text-4xl hover:text-xl'>dICKNomics</a>
+          <a href="#tokenomics" target="_blank" rel="noopener noreferrer" className='hover:text-whitel text-left text-4xl hover:text-xl'>dICKNomics</a>
           <a href="#" target="_blank" rel="noopener noreferrer" className='hover:text-whitel text-left text-4xl hover:text-xl'>Twitter</a>
           <a href="#" target="_blank" rel="noopener noreferrer" className='hover:text-whitel text-left text-4xl hover:text-xl'>Telegram</a>
 

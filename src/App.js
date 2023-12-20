@@ -49,7 +49,6 @@ const MainSite = () => {
       <Quiz />
       <Tokenomics />
       <Proof />
-      <Proof />
     </div>
   );
 };
