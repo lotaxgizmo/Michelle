@@ -29,7 +29,7 @@ const SplashPage = ({ onContinueClick }) => {
       <video src={video} className="w-[500px] h-auto rounded" autoPlay muted playsInline loop alt="Video Description"></video>
 
       <div
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
+        className="bg-[#EBF752] text-black font-bold py-2 px-4 rounded cursor-pointer"
         onClick={handleClick}
       >
         {audioPlayed ? 'Click to Continue' : 'Click to Continue'}
